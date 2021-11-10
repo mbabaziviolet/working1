@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+
+
+nav{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 27px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 28px 28px; 
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: blue;
+
+    
+}
+
+.detel{
+    margin-left: 7%;
+    margin-top: 2%;
+    padding-top: 10px 9px;
+}
+
+.detel h3{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+span{
+    color:red;
+}
+.detel h4{
+    font-size: 30px;
+    color: #212121;
+    margin-top: 10px;
+    background-color: #eff4fd;
+
+} 
+.detel p{
+    font-size: 20px;
+    background-color: #eff4fd;
+    font-weight: bold;
+    line-height: 22px;
+}
+.content-table{
+    border-collapse: collapse;
+    margin: 28px 0;
+    font-size: 0.5cm;
+    min-width: 20px; 
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px  rgba(0, 0, 0, 0.15);
+    background-color: #eff4fd;
+}
+.content-table thead tr{
+    background-color : #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table th,
+.content-table td{
+    padding: 15px 15px;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type {
+    background-color: #f3f3f3;
+}
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009379;
+}
+.content-table tbody tr.active-row{
+    font-weight: bold;
+    color: #009879;
+}
+.content-table tbody tr .active-row{
+    font-weight: bold;
+    color: red;
+}
+.detel h3{
+    font-weight: bold;
+    background-color: #eff4fd;
+    color: #212121;
+}
+.detel li{
+    font-weight: bold;
+    background-color: #eff4fd;
+    color: #212121;
+}
+.detel summary{
+    font-weight: bold;
+    background-color: #eff4fd;
+    color:#212121
+    
+}
+.detel summary p{
+    font-size: 15px;
+    background-color: #eff4fd;
+
+}
+.footer{
+    background-color: #eff4fd;
+    margin-left: 5%;
+}
+.footer h5{
+    font-weight: bold;
+    background-color: #eff4fd;
+    font-size: 19px;
+    margin-top: 5%;
+}
+.footer a{
+    font-size: 10px;
+    margin-left: 10%;
+}

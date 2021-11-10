@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height:100vh;
+    background: #eff4fd; 
+
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 28px 0;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 28px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+
+}
+.detel p{
+    color: #555;
+    line-height: 25px
+    
+    
+}
+.images{
+    position: relative;
+    width: 50px;
+    height: 40px;
+    display:inline-table;
+    background-color: #eff4fd;
+}
+.aside{
+    background-color: #eff4fd;
+    font-size: 19px;
+}
+.details{
+    display: inline-block;
+    padding: 28px 0;
+    background-color: #eff4fd;
+}
+
+.details h2{
+    color: rebeccapurple;
+}
+.details a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #eff4fd;
+    
+}
+.footer a{
+    margin-left: 19%;
+
+}

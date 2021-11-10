@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #eff4fd;
+
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 27px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 28px 27px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: blue;
+}
+
+.detel{
+    margin-top: 10px;
+    margin-left: 8%;
+}
+.detel h3{
+    font-weight: bold;
+    background-color: #eff4fd;
+}
+span{
+    color: blue;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto' , sans-serif;
+}
+body{
+    background: url('wall.jpg') no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+}
+.wrapper{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+
+}
+.contact-form{
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 8%;
+}
