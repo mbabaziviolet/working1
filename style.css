@@ -4,9 +4,9 @@
     font-family: sans-serif;
 }
 body{
-    background: url('water.jpg') no-repeat top center;
+    background: url('home.jpg') no-repeat top center;
     background-size: cover;
-    height: 300vh;
+    height: 220vh;
 }
 
 .hero{
@@ -25,7 +25,6 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
-
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -49,9 +48,9 @@ nav ul li a:hover{
     margin-top: 2%;
     padding-top: 10px 9px;
 }
-.detel h2{
+
     
-}
+
 
 .detel h3{
     font-size: 30px;
@@ -59,80 +58,101 @@ nav ul li a:hover{
     margin-bottom: 20px;
 }
 span{
-    color:red;
+    color:black;
 }
 .detel h4{
     font-size: 30px;
-    color: black
+    color:black;
     margin-top: 10px;
     
 
 } 
 .detel p{
     font-size: 20px;
-    color: black;
+    color: antiquewhite;
     font-weight: bold;
     line-height: 22px;
 }
-.content-table{
-    border-collapse: collapse;
-    margin: 28px 0;
-    font-size: 0.5cm;
-    min-width: 20px; 
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px  rgba(0, 0, 0, 0.15);
-    background-color: #eff4fd;
+
+
+
+
+
+table{
+    width: 20cm;
+    height: 4vh;
+    background-color: white;
+    border-radius: 2px;
+    margin: 15px auto;
 }
-.content-table thead tr{
-    background-color : #009879;
-    color: #ffffff;
+th{
+    border-bottom: 1px dashed black;
     text-align: left;
-    font-weight: bold;
 }
-.content-table th,
-.content-table td{
-    padding: 15px 15px;
+table,th,td ,tr{
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-collapse: collapse;
+    text-align: left;
 }
-.content-table tbody tr{
-    border-bottom: 1px solid #dddddd;
+.container{
+    font-size: 20px;
+    text-align: left;
+    color: antiquewhite;
+    width: 13cm;
+    height: 4vh;
+    border-radius: 3px;
+    margin-left: 5%;
+background-color:black;
 }
-.content-table tbody tr:nth-of-type {
-    background-color: #f3f3f3;
-}
-.content-table tbody tr:last-of-type {
-    border-bottom: 2px solid #009379;
-}
-.content-table tbody tr.active-row{
-    font-weight: bold;
-    color: #009879;
-}
-.content-table tbody tr .active-row{
-    font-weight: bold;
-    color: red;
-}
+
+
+
+
+
+
+
+
+
+
+
 .detel h3{
     font-weight: bold;
     
+    color: antiquewhite;
+}
+.detel h2{
+    font-weight: bold;
+    margin-top: 2%;
     color: black;
 }
+
 .detel li{
     font-weight: bold;
     font-size: 25px;
     
-    color: black;
+    color:antiquewhite;
 }
 .detel summary{
     font-weight: bold;
     font-size: 30px;
+    margin-top: 3%;
+    color:black;
     
-    color: black;
     
 }
+
 .detel summary p{
     font-size: 15px;
 
 
+}
+.aside{
+    color: antiquewhite;
+}
+
+.aside h4 li{
+    color: antiquewhite;
 }
 .footer{
     
@@ -152,10 +172,26 @@ span{
 }
 .footer h5{
     font-weight: bold;
-
+margin-left: 29%;
     font-size: 19px;
     margin-top: 5%;
 }
+
+.footer h3{
+    font-weight: bold;
+margin-left: 29%;
+    font-size: 19px;
+    margin-top: 2%;
+}
+
+.footer h4{
+    font-weight: bold;
+margin-left: 29%;
+    font-size: 19px;
+    margin-top: 2%;
+}
+
+
 .footer a{
     font-size: 20px;
     margin-left: 10%;

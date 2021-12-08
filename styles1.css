@@ -52,7 +52,7 @@ nav ul li a:hover{
 body{
      background: url('home.jpg') no-repeat top center;
      background-size: cover;
-     height: 100vh;
+     height: 150vh;
 }
 
 .wrapper{
@@ -140,6 +140,44 @@ body{
 
 
 
+.footer{
+    font-weight: bold;
+    color: black;
+    margin-top: 25%;
+    margin-left: 8%;
+
+}
+
+
+
+.footer h3{
+    font-weight: bold;
+    color: black;
+    margin-top: 2%;
+    margin-left: 20%;
+
+}
+
+.footer h4{
+    font-weight: bold;
+    color: black;
+    margin-top: 2%;
+    margin-left: 20%;
+
+}
+
+footer a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 10%;
+}
 
 
     
